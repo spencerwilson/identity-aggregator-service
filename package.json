@@ -1,0 +1,22 @@
+{
+  "name": "identity-aggregator-service",
+  "version": "0.0.1",
+  "description": "A GraphQL service that serves identity data on people in an organization, aggregated from a variety of sources",
+  "main": "index.js",
+  "author": "Spencer Wilson <sw12@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "example": "node example/index.js",
+    "lint": "eslint src example"
+  },
+  "dependencies": {
+    "eslint": "^4.9.0",
+    "graphql": "^0.11.1"
+  },
+  "optionalDependencies": {
+    "@slack/client": "^3.12.0",
+    "express": "^4.15.4",
+    "express-graphql": "^0.6.7",
+    "request-promise-native": "^1.0.4"
+  }
+}

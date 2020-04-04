@@ -1,0 +1,20 @@
+{
+  "ssw": {
+    "name": "Spencer",
+    "age": 23,
+    "friends": ["acs", "aok"],
+    "couple": "spesha"
+  },
+  "acs": {
+    "name": "Asha",
+    "age": 23,
+    "friends": ["ssw"],
+    "couple": "spesha"
+  },
+  "aok": {
+    "name": "Andrew",
+    "age": 23,
+    "friends": ["ssw"]
+  }
+}
+
